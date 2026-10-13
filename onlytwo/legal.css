@@ -1,0 +1,17 @@
+/* Páginas legales de Only Two. */
+:root{color-scheme:light dark;--bg:#F2F2F7;--paper:#fff;--ink:#1D1D1F;--soft:#6E6E73;--accent:#B5546F;--mark:#FBEAF0}
+@media (prefers-color-scheme:dark){:root{--bg:#0B0709;--paper:#1B1418;--ink:#F5F5F7;--soft:#98989F;--accent:#E58AA3;--mark:#3A2129}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 20px 56px}
+.app{color:var(--accent);font-weight:600;margin:0}
+h1{font-size:30px;line-height:1.2;margin:4px 0 4px}
+.date{color:var(--soft);font-size:14px;margin:0 0 24px}
+h2{font-size:20px;margin:32px 0 8px}
+h3{font-size:17px;margin:20px 0 4px}
+p,ul{margin:0 0 12px}
+ul{padding-left:22px}
+li{margin-bottom:6px}
+a{color:var(--accent)}
+mark{background:var(--mark);color:inherit;padding:1px 5px;border-radius:5px}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid color-mix(in srgb,var(--soft) 30%,transparent);font-size:15px}
