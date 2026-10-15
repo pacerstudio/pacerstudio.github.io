@@ -51,6 +51,13 @@
   <li>Puedes dejar de compartirla cuando quieras desde Ajustes; al hacerlo, tu ubicación se borra del servidor.</li>
 </ul>
 
+<h3>Foto (opcional)</h3>
+<ul>
+  <li>Con el plan Premium puedes poner una foto tuya en la app. Solo la eligen tú, desde el selector de fotos del sistema: la app no accede a tu galería ni a la cámara.</li>
+  <li>Antes de subirla, la app la recorta y la reduce a una imagen pequeña (320 × 320 píxeles). Se guarda en Cloud Storage para Firebase y solo pueden verla tú y tu pareja.</li>
+  <li>Puedes quitarla cuando quieras desde Ajustes; también se borra al desvincular la pareja o eliminar la cuenta.</li>
+</ul>
+
 <h3>Datos técnicos</h3>
 <ul>
   <li>Un identificador de la instalación de la app, necesario para enviarte notificaciones.</li>
@@ -60,7 +67,7 @@
 <h3>Lo que no tratamos</h3>
 <ul>
   <li>No usamos publicidad ni herramientas de analítica o seguimiento.</li>
-  <li>No accedemos a tus contactos, fotos, micrófono ni cámara, ni a tu ubicación exacta.</li>
+  <li>No accedemos a tus contactos, a tu galería (solo a la foto que tú eliges, si pones una), al micrófono ni a la cámara, ni a tu ubicación exacta.</li>
   <li>El bloqueo con huella lo gestiona tu teléfono: la app nunca recibe tu huella ni tu PIN.</li>
   <li>Las cartas para compartir por enlace llevan su texto dentro del propio enlace. No se guardan en nuestros servidores; quien tenga el enlace puede leerlas.</li>
 </ul>
@@ -74,7 +81,7 @@
 <p>No vendemos tus datos ni los usamos para crear perfiles publicitarios.</p>
 
 <h2>4. Dónde se guardan y quién los trata</h2>
-<p>Usamos Firebase, un servicio de Google LLC, como proveedor de infraestructura: inicio de sesión (Authentication), base de datos (Cloud Firestore), funciones en la nube, notificaciones (Cloud Messaging) y alojamiento web. Google trata los datos por encargo nuestro y puede almacenarlos en servidores situados fuera de tu país, incluidos los Estados Unidos, con las garantías que ofrece en sus condiciones de servicio.</p>
+<p>Usamos Firebase, un servicio de Google LLC, como proveedor de infraestructura: inicio de sesión (Authentication), base de datos (Cloud Firestore), almacenamiento de fotos (Cloud Storage), funciones en la nube, notificaciones (Cloud Messaging) y alojamiento web. Google trata los datos por encargo nuestro y puede almacenarlos en servidores situados fuera de tu país, incluidos los Estados Unidos, con las garantías que ofrece en sus condiciones de servicio.</p>
 <p>No compartimos tus datos con nadie más, salvo que una autoridad competente lo exija conforme a la ley.</p>
 
 <h2>5. Cuánto tiempo los conservamos</h2>
@@ -83,7 +90,7 @@
   <li>Si alguno de los dos desvincula la pareja, se borra todo lo que compartían: respuestas, fechas, planes, cartas y ciclo compartido.</li>
   <li>Si eliminas tu cuenta, se borran además tu cuenta y tu inicio de sesión en la app.</li>
   <li>Los códigos de conexión que nadie usa caducan y se eliminan automáticamente.</li>
-  <li><strong>Cuentas sin actividad:</strong> si ninguno de los dos miembros de una pareja abre la app durante 30 días seguidos, podremos eliminar la pareja y todo lo que compartían, y también las cuentas que lleven 30 días sin uso. Lo hacemos para no conservar datos que ya nadie usa. Basta con abrir la app para que el plazo vuelva a empezar.</li>
+  <li><strong>Cuentas sin actividad:</strong> si ninguno de los dos miembros de una pareja usa la app durante 90 días seguidos, eliminamos la pareja, todo lo que compartían y sus cuentas; lo mismo con las cuentas sin pareja que lleven 90 días sin uso. Para saberlo usamos la fecha de la última sesión que registra nuestro proveedor de inicio de sesión (Firebase Authentication), que se actualiza al abrir la app o cuando sus widgets se actualizan. Una semana antes enviamos un aviso al teléfono, y basta con abrir la app para que el plazo vuelva a empezar. Las parejas con Premium no se borran por inactividad. Lo hacemos para no conservar datos que ya nadie usa.</li>
 </ul>
 
 <h2>6. Cómo borrar tus datos</h2>
